@@ -17,6 +17,11 @@ body {
   margin-bottom: 15%;
 }
 
+.lagu{
+  margin-top: -80px;
+  margin-bottom: 30px;
+}
+
 h5 {
   font-size: 25px;
 }
@@ -184,9 +189,20 @@ header .img {
     margin-top: 5%;
     margin-bottom: 1%;
   }
+
+  .lagu{
+    margin-top: auto;
+    margin-bottom: auto;
+  }
 }
 
 @media screen and (max-width: 991px) {
+
+  .lagu{
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
   .navbar-light .navbar-toggler {
     color: transparent;
   }
